@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin(origins = "http://127.0.0.1:5500") //configuraçao para poder interagir com o font localmente
 @RequestMapping("alunos")
 public class AlunosController {
 
